@@ -1,2 +1,2 @@
 # Guess-The-Number
-## Guess the secret number!
+### Play this simple javascript game
