@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-color: rgb(72, 35, 235);
+  font-family: Potta One, display;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.num-choices {
+  font-size: 2rem;
+}
+
+.number {
+  font-size: 5rem;
+  margin-top: 1rem;
+}
+
+#num-word {
+  color: orange;
+}
+
+.mid {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-right: 2rem;
+}
+
+.bottom {
+  display: grid;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.bottom p {
+  color: #fff;
+}
+
+.bottom .message {
+  color: orange;
+}
+
+
+input {
+  height: 10rem;
+  width: 15rem;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Potta One;
+}
+
+#guess {
+  font-size: 8rem;
+  color: orange;
+}
+
+button {
+  background-color: orange;
+  font-size: 1rem;
+  font-family: Potta One, display;
+  border-radius: 10px;
+}
+
+.btn-guess {
+  height: 2rem;
+  width: 5rem;
+  margin-top: 1rem;;
+  font-size: 1rem;
+}
+
+button:hover {
+  outline: none;
+}
+
+.message {
+  font-family: Potta One;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.score {
+  font-family: Potta One;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0 0;
